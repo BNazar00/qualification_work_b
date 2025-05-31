@@ -1,0 +1,11 @@
+.orange-btn:hover {
+    background: #fa8c16;
+    color: white;
+    border-color: #fa8c16;
+}
+
+.orange-btn:focus {
+    background: white;
+    color: black;
+    border-color: #d9d9d9;
+}

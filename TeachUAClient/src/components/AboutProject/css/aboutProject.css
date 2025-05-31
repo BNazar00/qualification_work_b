@@ -1,0 +1,319 @@
+.aboutProject .title {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.aboutProject .title .text {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.aboutProject .title .content {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 64px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.aboutProject .social-media {
+
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-self: center;
+}
+
+.aboutProject .social-media .links {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.aboutProject .social-media .icon {
+    color: #2D4C68;
+    font-size: 1.3em;
+}
+
+.aboutProject .social-media .text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D4C68;
+    vertical-align: center;
+}
+
+.aboutProject .donate-button {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #FA8C16;
+    color: #FFFFFF;
+}
+
+.aboutProject .donate-button:hover {
+    color: white;
+    background: #FFA940;
+}
+
+.aboutProject .social-info {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.aboutProject .help-button {
+    display: flex;
+    align-items: center;
+}
+
+.aboutProject .add-item-button {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin: 2px;
+}
+
+.aboutProject .edit-button {
+    text-align: center;
+    margin: 2px;
+}
+
+
+.aboutProject .inputNum{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.aboutProject .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutProject .title-content {
+    padding-top:30px;
+    width: 35%;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+    font-family: Segoe UI;
+    opacity: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.aboutProject .content-text {
+    width: 70%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    word-wrap: break-word;
+}
+
+.aboutProject .col .content-text {
+    width: 100%;
+}
+
+.aboutProject .row {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+.aboutProject .row .col {
+    box-sizing: border-box;
+    width:35%;
+    margin: 0px 15px 15px 15px;
+
+}
+
+.aboutProject .chapter {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    margin-top:20px;
+    margin-bottom: 6px;
+}
+
+.aboutProject .delete-text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #8f0a00;
+    text-align: center;
+}
+
+.aboutProject .highlight {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D4C68;
+    opacity: 0.6;
+}
+
+.aboutProject a{
+    text-decoration-color: #2f54eb;
+    text-decoration-line: underline;
+}
+
+.aboutProject a:visited{
+    text-decoration-color: #2f54eb;
+    text-decoration-line: underline;
+}
+
+/*.aboutProject .addit-information{*/
+/*    margin-top:100px;*/
+/*}*/
+
+/*.aboutProject .image {*/
+/*    height:auto;*/
+/*    max-width:100%;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+.aboutProject .image {
+    position: static;
+    /* width: 431px;*/
+    /* height: 360px;*/
+    width: 30%;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media(min-width: 319px) and (max-width: 824px) {
+    .aboutProject .title .text {
+        font-size: 36px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    .aboutProject .social-info {
+        height: 10px;
+        display: contents !important;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+
+    .aboutProject .help-button {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .aboutProject .row .col .text {
+        width: 90vw;
+        font-size: 14px;
+        margin-top: 20px;
+        word-wrap: break-word;
+    }
+
+    .aboutProject .row {
+        display: grid;
+        margin: 10px;
+    }
+
+    .aboutProject .row .col .name {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .aboutProject .row .col .position {
+        text-align: center;
+        width: 90vw;
+    }
+
+
+    .aboutProject .image {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .aboutProject .row .col {
+        box-sizing: border-box;
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+
+    /*.aboutProject .content-text {*/
+    /*    width: 75%;*/
+    /*    font-family: Open Sans;*/
+    /*    font-style: normal;*/
+    /*    font-weight: normal;*/
+    /*    font-size: 18px;*/
+    /*    line-height: 28px;*/
+    /*    color: #2D4C68;*/
+    /*    opacity: 0.9;*/
+    /*    margin-bottom: 25px;*/
+    /*    margin-right: 10px;*/
+    /*    margin-left: 10px;*/
+    /*}*/
+
+    .aboutProject .content-text {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    .aboutProject .col .content-text {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    .aboutProject .content .title-content {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1%;
+        word-wrap: break-word;
+    }
+
+
+}

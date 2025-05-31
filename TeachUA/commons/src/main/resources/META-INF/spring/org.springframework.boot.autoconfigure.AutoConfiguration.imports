@@ -1,0 +1,2 @@
+com.softserve.commons.config.ZipkinConfig
+com.softserve.commons.config.DtoConverterConfig

@@ -1,0 +1,28 @@
+.empty-advanced-search {
+    color: #2D4C68;
+}
+
+.empty-advanced-search .clubs-not-found {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 28px;
+}
+
+.empty-advanced-search .invite-clubs {
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 32px;
+}
+
+.empty-advanced-search .invite-clubs-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    color: #fff;
+    background: #FA8C16;
+    margin-top: 24px;
+}
+
+.empty-advanced-search .invite-clubs-button:hover {
+    background: #FE7729;
+}

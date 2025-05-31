@@ -1,0 +1,76 @@
+.club-list-control {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2D4C68;
+    border-radius: 4px;
+    padding-left: 11px;
+    margin-left: 5px;
+    margin-right: 16px;
+
+}
+
+.club-list-control .club-control-sort {
+    display: flex;
+}
+
+.club-list-control .control-sort-label {
+    margin-right: 8px;
+}
+
+.club-list-control .control-sort-option {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.club-list-control .control-sort-arrows {
+    color: #FA8C16;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.club-list-control .club-view-button {
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF7E6;
+    height: 36px;
+    width: 68px;
+    border-radius: 4px;
+}
+
+.club-list-control .club-view-button:hover {
+    background: #FAFAFA;
+}
+
+.club-list-control .ant-radio-button-wrapper:not(:first-child)::before,
+.club-list-control .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    display: none;
+}
+
+.club-control-view {
+    display: flex;
+    align-items: center;
+}
+
+.club-view-button-icon {
+    display: flex;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+}
+
+.club-list-control .club-view-button {
+    color: #FA8C16;
+}
+
+.club-list-control .ant-radio-button-wrapper:first-child {
+    right: -5px;
+}
+
+.club-list-control .club-view-button .ant-radio-button-checked {
+    box-shadow: 0 2px 4px rgba(51, 51, 50, 0.12);
+    color: white;
+}

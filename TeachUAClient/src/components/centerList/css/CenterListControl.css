@@ -1,0 +1,70 @@
+.center-list-control {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2D4C68;
+    border-radius: 4px;
+    padding-left: 11px;
+    margin-left: 5px;
+    margin-right: 16px;
+}
+
+.center-list-control .center-control-sort {
+    display: flex;
+}
+
+.center-list-control .control-sort-label {
+    margin-right: 8px;
+}
+
+.center-list-control .control-sort-option {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.center-list-control .control-sort-option:hover {
+    color: #FA8C16;
+}
+
+.center-list-control .control-sort-arrow:hover{
+    color: #FFC069;
+}
+
+.center-list-control .control-sort-arrows {
+    color: #FA8C16;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.center-list-control .center-view-button {
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF7E6;
+    height: 36px;
+    width: 68px;
+    border-radius: 4px;
+}
+
+.center-list-control .center-view-button:hover {
+    background: #FAFAFA;
+}
+
+.center-list-control .ant-radio-button-wrapper:not(:first-child)::before,
+.center-list-control .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    display: none;
+}
+
+.center-list-control .ant-radio-button-wrapper:first-child {
+    right: -5px;
+}
+
+.center-list-control .center-view-button .ant-radio-button-checked {
+    box-shadow: 0px 2px 4px rgba(51, 51, 50, 0.12);
+}
+
+
+
+

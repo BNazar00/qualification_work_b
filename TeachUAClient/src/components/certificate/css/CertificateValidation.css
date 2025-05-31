@@ -1,0 +1,36 @@
+.validation-content{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 0 0 10%;
+    font-size: 20px;
+}
+
+.banner-image img{
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+.title-text{
+    text-align: center;
+    font-style:italic;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.sub-title{
+    font-style: italic;
+}
+
+.user-name{
+    text-align: center;
+    font-weight: 700;
+}
+
+.serial-number{
+    text-indent: 40px;
+}
+
+.validation-content p{
+    text-indent: 40px;
+}

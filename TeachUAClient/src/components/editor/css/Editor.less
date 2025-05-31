@@ -1,0 +1,189 @@
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid #D9D9D9;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.editor-toolbar {
+    display: flex;
+    z-index: 1;
+    align-self: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.editor-space {
+    color: #BFBFBF;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.editor-space::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+    background-color: white;
+}
+
+.editor-space::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.editor-space .DraftEditor-root {
+    min-height: 400px;
+    overflow: auto;
+}
+
+.editor-toolbar .toolbar-button {
+    width: 15px;
+    height: 15px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.editor-toolbar .toolbar-active-button {
+    opacity: 0.5;
+}
+
+.editor-space .editor-active-button {
+    font-weight: 700;
+}
+
+.editor-space .image-controls {
+    display: none;
+    color: #2D4C68;
+    background: rgba(240, 240, 240, 0.6);
+    height: 100%;
+    margin: auto 0 0 0;
+    justify-content: space-around;
+    width: 120px;
+    border-radius: 5px 5px 0 0;
+}
+
+.editor-space .image-editor > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.editor-space .image-editor:hover .image-controls {
+    display: flex;
+}
+
+.editor-toolbar .header-two {
+    width: 11.5px;
+    height: 14px;
+    background: url("/images/editor/header-two.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .image {
+    height: 13.75px;
+    width: 17.5px;
+    background: url("/images/editor/image.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .link {
+    width: 15px;
+    height: 15px;
+    background: url("/images/editor/link.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .blockquote {
+    width: 20px;
+    height: 20px;
+    background: url("/images/editor/quote.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .left {
+    width: 18px;
+    height: 18px;
+    background: url("/images/editor/align-left.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .right {
+    width: 18px;
+    height: 18px;
+    background: url("/images/editor/align-right.svg") no-repeat center / contain;
+}
+
+.editor-toolbar .center {
+    width: 18px;
+    height: 18px;
+    background: url("/images/editor/align-center.svg") no-repeat center / contain;
+}
+
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    width: 51%;
+    position: relative;
+    float: left;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.4);
+}
+
+.temp-lay a {
+    color: #2E69C9;
+    text-decoration: underline;
+}
+
+.edited-image-left {
+    position: relative;
+    float: left;
+    margin-right: 1%;
+}
+
+.edited-image-right {
+    position: relative;
+    float: right;
+    margin-left: 1%;
+}
+
+.edited-image-center {
+    display: block;
+    margin:  0 auto;
+}
+
+.edited-image-right-without-text{
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.edited-image {
+    max-width: 48%;
+    max-height: 350px;
+}
+
+.editor-textarea {
+    resize: none;
+    border: 1px solid #D9D9D9;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}

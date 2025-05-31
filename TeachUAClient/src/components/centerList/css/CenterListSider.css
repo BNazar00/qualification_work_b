@@ -1,0 +1,103 @@
+.club-list-sider {
+    flex: 0 0 382px!important;
+    max-width: 382px!important;
+    min-width: 382px!important;
+    width: 382px!important;
+    background: white;
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.club-list-sider .club-list-label {
+    font-weight: 600;
+    font-size: 24px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+.club-list-sider .club-list-row label {
+    font-size: 18px;
+    text-align: left;
+    padding-right: 16px;
+    display: block;
+}
+
+.club-list-sider .club-list-row label:after {
+    content: none;
+}
+
+.club-list-sider .club-list-row {
+    flex-direction: column;
+    text-align: left;
+}
+
+.club-list-sider .club-list-select {
+    width: 256px;
+}
+
+.club-list-sider .club-list-select .ant-select-selector {
+    height: 40px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.club-list-sider .club-list-kind label,
+.club-list-sider .club-list-categories label{
+    width: 256px;
+    font-size: 14px;
+    white-space: normal;
+    color: #595959;
+    margin: 0;
+    padding: 0;
+}
+
+.club-list-sider .club-list-age {
+    color: #595959;
+    display: flex;
+    align-items: center;
+}
+
+.club-list-sider .club-list-age .input-age {
+    margin: 0 16px 0 8px;
+    border: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    border-radius: 6px;
+    width: 43px;
+    height: 40px;
+}
+
+.club-list-sider .club-list-age .ant-input-number-handler-wrap {
+    width: 12px;
+    border-radius: 0 6px 6px 0;
+}
+
+.club-list-sider .club-list-age  .ant-input-number-handler-wrap .ant-input-number-handler .ant-input-number-handler-up-inner,
+.club-list-sider .club-list-age  .ant-input-number-handler-wrap .ant-input-number-handler .ant-input-number-handler-down-inner{
+    margin-right: -4px;
+}
+
+.club-list-sider .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #d9d9d9;
+}
+
+@media (max-width: 900px) {
+    .club-list-sider {
+        flex: 0 0 300px !important;
+        max-width: 300px !important;
+        min-width: 300px !important;
+        width: 300px !important;
+        justify-content: center;
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 630px) {
+    .club-list-sider {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+}

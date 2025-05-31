@@ -1,0 +1,26 @@
+.add-form {
+    padding-top: 10%;
+    margin: 5%;
+}
+.push-down {
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.add-btn {
+    float: right;
+    margin-bottom: 1rem;
+}
+.table-header {
+    display: none;
+}
+.ant-switch-checked {
+    background-color: #FA8C16;
+}
+.back-btn {
+    float: right;
+    padding-right: 10px;
+}
+.ql-container.ql-snow, .ql-toolbar.ql-snow {
+    background-color: white;
+}

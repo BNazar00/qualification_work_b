@@ -1,0 +1,93 @@
+.modal-add-club .add-club-sider {
+    border-radius: 16px 0 0 16px;
+    background: #FAFAFA;
+    padding: 32px 0 32px 32px;
+    min-height: 600px;
+}
+
+.modal-add-club .add-club-sider-mobile {
+    display: none;
+}
+
+.add-club-sider .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: #FA8C16;
+    color: white;
+}
+
+.add-club-sider .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #FA8C16;
+}
+
+.add-club-sider .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon .ant-steps-icon {
+    color: white;
+}
+
+.add-club-sider .ant-steps-item-wait .ant-steps-item-icon {
+    background: #E8E8E8;
+    border: none;
+}
+
+
+.add-club-sider .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+    color: #2D4C68;
+}
+
+@media (min-device-width: 319px) and (max-device-width: 577px) {
+    .modal-add-club .add-club-sider {
+        display: none;
+    }
+
+    .ant-steps.ant-steps-horizontal.add-club-sider-mobile.ant-steps-label-horizontal {
+        margin: 15px 0 -30px 0;
+        overflow: hidden;
+    }
+
+    .modal-add-club .add-club-container {
+        padding: 10px 10px 32px 10px;
+    }
+
+    .modal-add-club .add-club-sider-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background: #FAFAFA !important;
+        padding: 6px 0 4px 4px;
+        max-height: 40px;
+        min-height: 40px;
+
+    }
+
+    .add-club-sider-mobile .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+        background: #FA8C16;
+        color: white;
+    }
+
+    .add-club-sider-mobile .ant-steps-item-finish .ant-steps-item-icon {
+        background-color: #FA8C16;
+    }
+
+    .add-club-sider-mobile .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon .ant-steps-icon {
+        color: white;
+    }
+
+    .add-club-sider-mobile .ant-steps-item-wait .ant-steps-item-icon {
+        background: #E8E8E8;
+        border: none;
+    }
+
+    .ant-steps-item {
+        flex: none;
+    }
+
+    .ant-steps.ant-steps-horizontal.ant-steps-label-horizontal {
+        justify-content: space-between;
+    }
+
+    .add-club-sider-mobile .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+        color: #2D4C68;
+    }
+}
+
+
+
+

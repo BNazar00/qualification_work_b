@@ -1,0 +1,19 @@
+.add-station {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-station .add-station-input {
+    width: 200px;
+    margin: 0 5px 0 5px;
+}
+
+.add-station .add-station-button {
+    background: #FA8C16;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.add-station .add-station-button:hover {
+    background: #FFA940;
+}

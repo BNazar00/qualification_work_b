@@ -1,0 +1,84 @@
+.club-sider {
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+
+.club-sider .card {
+    height: 418px;
+    width: 296px;
+    color: black;
+    box-shadow: 0px 100px 80px rgba(1, 16, 44, 0.03), 0px 12.5216px 10.0172px rgba(1, 16, 44, 0.035);
+    border-radius: 16px;
+    padding: 24px;
+    cursor: pointer;
+    margin: 0 5px 28px 5px;
+}
+
+.club-sider .card .ant-card-head-title {
+    white-space: normal;
+}
+
+.club-sider .card .title {
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+    width: 100%;
+    height: 44px;
+}
+
+.club-sider .card .address .oneAddress{
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    max-width:199px;
+    color: #2D4C68;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.club-sider .card .address .popover{
+    display:flex;
+}
+
+.club-sider .card .address .text{
+    display:flex;
+}
+
+.club-sider .card .address .text .oneAddress{
+    max-width: 135px;
+    opacity: 1;
+}
+
+.club-sider .ant-card-body {
+    padding: 0;
+    width: 248px;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.club-sider .empty .ant-card-body {
+    padding: 0;
+}
+
+.club-sider .ant-card-head {
+    border-bottom: none;
+}
+
+.club-sider .sider-header .city-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2D4C68;
+}
+
+@media screen and (max-width: 1000px) {
+    .club-sider{
+        display:none;
+    }
+}

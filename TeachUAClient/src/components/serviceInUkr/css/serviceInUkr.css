@@ -1,0 +1,237 @@
+.serviceInUkr {
+    background: none;
+}
+
+.serviceInUkr .title {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.serviceInUkr .title .text {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.serviceInUkr .social-media {
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-self: center;
+}
+
+.serviceInUkr .social-media .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.serviceInUkr .social-media .icon {
+    color: #2D4C68;
+    font-size: 1.3em;
+}
+
+.serviceInUkr .social-media .text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D4C68;
+    vertical-align: center;
+}
+
+.serviceInUkr .donate-button {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #FA8C16;
+    color: #FFFFFF;
+}
+
+.serviceInUkr .donate-button:hover {
+    color: white;
+    background: #FFA940;
+}
+
+.serviceInUkr .social-info {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+.serviceInUkr .help-button {
+    display: flex;
+    align-items: center;
+}
+
+.serviceInUkr .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.serviceInUkr .content-title {
+    width: 620px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.serviceInUkr .content-text {
+    width: 620px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+}
+
+.serviceInUkr .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.serviceInUkr .faq-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #2D4C68;
+    margin-bottom: 50px;
+}
+
+.serviceInUkr .ant-collapse {
+    width: 892px;
+    min-width: 700px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 100px 80px rgba(1, 16, 44, 0.03), 0px 12px 10px rgba(1, 16, 44, 0.04);
+}
+
+.serviceInUkr .ant-collapse-header {
+    color: #2D4C68;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.serviceInUkr .ant-collapse > .ant-collapse-item {
+    border-bottom: none;
+}
+
+.serviceInUkr .ant-collapse-arrow {
+    /*margin-top: 15px;*/
+}
+.serviceInUkr .ant-collapse .ant-collapse-item .ant-collapse-header {
+    color: #2D4C68;
+}
+
+.serviceInUkr .ant-collapse-content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    border-top: 1px solid #f1f1f1;
+}
+
+@media (min-width: 320px) and (max-width: 824px) {
+    .serviceInUkr .title .text{
+        font-size: 45px !important;
+        text-align: center;
+    }
+
+    .serviceInUkr .social-info {
+        height: 10px;
+        display: contents !important;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+
+    .serviceInUkr .help-button {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    .content-title {
+        padding-top: 20px !important;
+    }
+
+    .serviceInUkr .social-media {
+        padding-bottom: 20px;
+    }
+
+    .serviceInUkr .social-media .text {
+        line-height: 10px;
+    }
+    .content-title, .club-title {
+        padding-left: 5px !important;
+    }
+    .serviceInUkr .content-title {
+        width: 340px;
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #2D4C68;
+        text-align: center;
+    }
+
+    .serviceInUkr .content {
+        margin-bottom: 50px;
+    }
+
+    .serviceInUkr .content-text {
+        width: 305px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #2D4C68;
+        opacity: 0.9;
+    }
+    .serviceInUkr .faq-title {
+        font-size: 28px;
+    }
+
+    .serviceInUkr .faq {
+        display: initial;
+    }
+    .serviceInUkr .ant-collapse > .ant-collapse-item {
+        border-bottom: none;
+        width: 100%;;
+        padding-top: 16px;
+        padding-bottom: 10px;
+    }
+
+    .serviceInUkr .ant-collapse {
+        width: 100%;
+        min-width: 20%;
+    }
+
+    .serviceInUkr .ant-collapse .ant-collapse-item .ant-collapse-header {
+        margin-bottom: 4%;
+    }
+}

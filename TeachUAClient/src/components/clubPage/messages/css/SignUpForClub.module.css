@@ -1,0 +1,133 @@
+.signUpForClubModal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D4C68;
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clubName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #003A8C;
+}
+
+.comment {
+    width: 230px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #595959;
+    /*margin-bottom: 10px;*/
+}
+
+.contacts {
+    /*margin-top: -26px;*/
+    inline-size: min-content;
+}
+
+.contacts > div {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts > div > div > div {
+    display: flex;
+    color: #2d4c68;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.contacts > div > div > div > span {
+    opacity: 0.6;
+    color: #2d4c68;
+    margin-left: 11px;
+    max-width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.hr {
+    /*border: 1px solid black;*/
+    width: 100%;
+    color: black;
+    margin: 25px 0 15px;
+}
+
+.form {
+    width: 95%;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*.formItem label {*/
+/*    font-weight: 400;*/
+/*    font-size: 18px;*/
+/*    line-height: 32px;*/
+/*    width: 94px;*/
+/*    text-align: right;*/
+/*    padding-right: 16px;*/
+/*    color: #2D4C68;*/
+/*}*/
+
+.labelBlock {
+    padding-right: 16px;
+    color: #2D4C68;
+}
+
+.labelBlock label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: right;
+    padding-right: 16px;
+    color: #2D4C68;
+}
+
+.textArea {
+    width: 450px
+}
+
+.formButton{
+    padding: 8px 70px;
+    height: 40px;
+    background: #FA8C16 !important;
+    border-radius: 6px;
+    transform: translateX(50%);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF !important;
+    opacity: 1.0;
+}

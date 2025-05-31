@@ -1,0 +1,11 @@
+.avatarIfLogin {
+    background: #FA8C16;
+}
+
+.avatarIfNotLogin {
+    background: 0;
+    margin-top: -8px;
+}
+span.anticon.anticon-caret-down {
+    padding-left: 5px;
+}

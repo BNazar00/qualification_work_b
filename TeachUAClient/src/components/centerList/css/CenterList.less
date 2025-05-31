@@ -1,0 +1,158 @@
+.center-list-content {
+  margin: 45px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-list-content .content-center-list {
+  min-height: 932px;
+  padding-top: 35px;
+  margin-right: 20px;
+}
+
+.center-list-content .content-center-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.center-list-content .content-center-list:last-child {
+  margin-bottom: 0;
+}
+
+.center-list-content .content-center-list .ant-card-body {
+  padding: 0;
+  height: 190px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.center-list-content .content-center-list .empty .ant-card-body {
+  padding: 0;
+}
+
+.center-list-content .content-center-list .ant-card-head {
+  border-bottom: none;
+}
+
+.club-list .center-list-content .card {
+  height: 228px;
+  width: 296px;
+  color: black;
+  box-shadow: 0px 100px 80px rgba(1, 16, 44, 0.03), 0px 12.5216px 10.0172px rgba(1, 16, 44, 0.035);
+  border-radius: 16px;
+  padding: 24px;
+  cursor: pointer;
+  margin: 0 5px 28px 5px;
+}
+
+.club-list .center-list-content .card .ant-card-head-title {
+  white-space: normal;
+}
+
+.club-list .center-list-content .content-center .ant-space-item {
+  margin-right: 0;
+  padding-bottom: 0;
+}
+
+.club-list .center-list-content .card .center-title {
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  width: 100%;
+  height: 44px;
+}
+.center-name{
+  color: #002766;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.center-description-in-block {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+.club-list .pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.center-list .center-tags-box {
+  display: flex;
+  align-items: flex-start;
+  height:50px;
+}
+
+.club-list .center-tags {
+  width: 180px;
+}
+
+.club-list .and {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.club-list .expand-icon{
+  margin-top: 5px;
+}
+.oneAddress{
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width:150px;
+  height: 24px;
+  color: #2D4C68;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.club-list .card .address .oneAddress{
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width:189px;
+  height: 24px;
+  color: #2D4C68;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.club-list .card .address .popover{
+  display:flex;
+}
+
+.center-list .card .address .text{
+  display:flex;
+}
+
+
+.club-list .card .address .text .oneAddress{
+  max-width: 135px;
+  opacity: 1;
+}
+
+@media (max-width: 1264px) {
+  .center-list-content {
+    max-width: 90% !important;
+  }
+}
+
+/*@media (max-width: 630px) {
+    .club-list-content {
+        display: none;
+    }
+}*/

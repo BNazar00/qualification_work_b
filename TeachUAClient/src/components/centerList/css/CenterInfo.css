@@ -1,0 +1,175 @@
+.centerInfo .container {
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.centerInfo .center-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.centerInfo .center-name {
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #002766;
+    line-height: 28px;
+}
+
+.centerInfo {
+    padding-bottom: 0;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.centerInfo .ant-modal-body {
+    display: flex;
+    padding: 0;
+}
+
+.centerInfo .tags {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.centerInfo .address-icon {
+    font-size: 1.5em;
+    color: #FFA62C;
+    margin-right: 11px;
+}
+
+.centerInfo .address {
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.centerInfo .address .text {
+    color: #2D4C68;
+    opacity: 0.6;
+    font-weight: 600;
+    vertical-align: center;
+}
+
+.centerInfo .sider-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D4C68;
+}
+
+.centerInfo .years {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D4C68;
+    opacity: 0.6;
+}
+
+.centerInfo .age {
+    margin-bottom: 20px;
+}
+
+.centerInfo .social-media {
+    margin-bottom: 28px;
+}
+
+.centerInfo .social-media .links {
+    display: flex;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.centerInfo .social-media .label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #2D4C68;
+}
+
+.centerInfo .social-media .links .contact {
+    display: flex;
+}
+
+.centerInfo .social-media .links .contact .contact-name {
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+.centerInfo .rating .feedback {
+    font-size: 14px;
+    color: #0050B3;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 14px;
+}
+
+.centerInfo .more-button {
+    font-weight: 700;
+    height: 40px;
+    width: 203px;
+    background: #FA8C16;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.centerInfo .more-button:hover {
+    background-color: #FFA940;
+}
+
+.centerInfo .about-club {
+    margin-top: 30px;
+}
+
+.centerInfo .about-club .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D4C68;
+}
+
+.centerInfo .carousel {
+    max-width: 820px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.centerInfo .carousel .carousel-cell {
+    width: 120px;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.centerInfo .about-club .description {
+    height: auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+    overflow-y: auto;
+}
+
+.centerInfo .about-club .description::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+}
+
+.centerInfo .about-club .description::-webkit-scrollbar-thumb {
+    background-color: #BFBFBF;
+    border-radius: 6px;
+}

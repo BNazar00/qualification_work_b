@@ -1,0 +1,222 @@
+.challenge-task-page .task-not-found {
+    margin: 0 -87px -20px -87px;
+    background: white;
+    border-top: 2px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+/*CSS for text editor*/
+.challenge-task-page .ql-align-center {
+    text-align: center;
+}
+.challenge-task-page .ql-align-right {
+    text-align: right;
+}
+.challenge-task-page .ql-align-justify {
+    text-align: justify;
+}
+.challenge-task-page .ql-video {
+    width: 30%;
+    border-radius: 13px;
+}
+.challenge-task-page .desc-img {
+    width: 100%;
+    border-radius: 13px;
+}
+.challenge-task-page .ql-indent-1 {
+    margin-left: 25px;
+}
+
+.challenge-task-page .ql-indent-2 {
+    margin-left: 50px;
+}
+
+.challenge-task-page .ql-indent-3 {
+    margin-left: 75px;
+}
+
+.challenge-task-page .ql-indent-4 {
+    margin-left: 100px;
+}
+
+.challenge-task-page .ql-indent-5 {
+    margin-left: 125px;
+}
+
+.challenge-task-page .ql-indent-6 {
+    margin-left: 150px;
+}
+.challenge-task-page .ql-indent-7 {
+    margin-left: 175px;
+}
+.challenge-task-page .ql-indent-8 {
+    margin-left: 200px;
+}
+
+.challenge-task-page {
+    align-items: center;
+    background: #f7e0d3;
+    flex-direction: column !important;
+}
+
+.challenge-task-page .task-header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: #2D4C68;
+}
+
+.challenge-task-page .task-image {
+    border-radius: 4%;
+}
+
+.page-task-content {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #2D4C68;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 3%;
+}
+
+.challenge-task-page .task-text {
+    font-family: Open Sans;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+
+.challenge-task-page .task-text .innerHTML-from-js #headline {
+    font-weight: bold;
+}
+
+.challenge-task-page .task-image-par {
+    display: contents;
+}
+
+.challenge-task-page .innerHTML-from-js a {
+    color: #58a6ff;
+}
+
+
+.page-task-content h1 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.page-task-content h2 {
+    margin-bottom: 24px;
+    font-size: 25px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.page-task-content h3 {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.page-task-content h4 {
+    margin-bottom: 24px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.page-task-content h5 {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.page-task-content h6 {
+    margin-bottom: 24px;
+    font-size: 13px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+@media (min-device-width: 200px) and (max-device-width: 1000px) {
+    .challenge-task-page {
+        align-items: normal;
+    }
+
+    .challenge-task-page .page-task-content {
+        margin-top: 5%;
+        width: 100%;
+        align-content: space-between;
+    }
+
+    .challenge-task-page .task-header {
+        font-size: inherit;
+    }
+
+    .challenge-task-page .task-image {
+        width: 90%;
+    }
+
+    .challenge-task-page .header-content {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 85%;
+    }
+
+    .challenge-task-page .task-content {
+        width: 85%;
+    }
+
+    .challenge-task-page .task-text {
+        white-space: pre-line;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-device-width: 1000px) {
+
+    .challenge-task-page .task-not-found {
+        width: 100%;
+    }
+
+    .challenge-task-page .task-header {
+        font-size: 32px;
+        margin-top: -30%;
+        margin-bottom: 2%;
+        align-content: center;
+    }
+
+    .challenge-task-page .task-image {
+        margin: 0;
+        width: 40%;
+        align-self: flex-end;
+    }
+
+
+    .challenge-task-page .header-content {
+        margin-top: -8%;
+        width: 45vw;
+        position: relative;
+    }
+
+
+    .challenge-task-page .task-content {
+        position: center;
+        width: 45vw;
+        margin-top: 10%;
+        align-self: center
+    }
+
+    .challenge-task-page .task-text {
+        margin-top: 2%;
+        white-space: pre-line;
+        font-size: 18px;
+
+    }
+}

@@ -1,0 +1,17 @@
+.ant-menu-horizontal {
+	&:not(.ant-menu-dark) {
+		> .ant-menu-item,
+		> .ant-menu-submenu {
+			&:hover,
+			&-active,
+			&-open,
+			&-selected {
+				color: white;
+
+				&::after {
+					border-bottom: 2px solid white;
+				}
+			}
+		}
+	}
+}

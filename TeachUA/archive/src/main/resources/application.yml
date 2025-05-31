@@ -1,0 +1,29 @@
+server:
+  port: ${ARCHIVE_PORT}
+spring:
+  profiles.active: dev
+  application:
+    name: archive
+  data:
+    mongodb:
+      host: ${MONGODB_HOST}
+      authentication-database: ${MONGODB_AUTHENTICATION_DB}
+      username: ${MONGO_INITDB_ROOT_PASSWORD}
+      password: ${MONGO_INITDB_ROOT_PASSWORD}
+      database: ${MONGODB_DATABASE}
+  rabbitmq:
+    addresses: ${RABBITMQ_HOST}:${RABBITMQ_PORT}
+    username: ${RABBITMQ_DEFAULT_USER}
+    password: ${RABBITMQ_DEFAULT_PASS}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  tracing:
+    sampling:
+      probability: ${TRACING_STATE:0}.0
+  zipkin:
+    tracing:
+      endpoint: ${ZIPKIN_TRACING_ENDPOINT}

@@ -1,0 +1,12 @@
+.modalHint {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D4C68;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,34 @@
+.add-city {
+    display: flex;
+}
+
+.add-city .add-city-content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.add-city .add-city-input {
+    width: 100%;
+}
+
+.add-city .add-city-input .css-yk16xz-control {
+    border: 2px solid #FA8C16;
+    box-shadow: none;
+}
+
+.add-city .add-city-input .css-1pahdxg-control {
+    border: 2px solid #FFA940;
+    box-shadow: none;
+}
+
+.add-city .add-city-button {
+    background: #FA8C16;
+    color: #fff;
+    margin-left: 10px;
+    height: 38px;
+}
+
+.add-city .add-city-button:hover {
+    background: #FFA940;
+}

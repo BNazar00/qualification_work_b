@@ -1,0 +1,11 @@
+.certificateSearchContent {
+    padding-top: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchCertificateUser{
+    padding-bottom: 10px;
+}

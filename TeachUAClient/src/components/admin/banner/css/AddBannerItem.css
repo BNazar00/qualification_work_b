@@ -1,0 +1,24 @@
+.add-banner-item-form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.add-banner-item-form .add-banner-item-button{
+    background: #FA8C16;
+    color: #fff;
+    height: 38px;
+    width: 40%;
+    margin-top: 22px;
+}
+
+.add-banner-item-button:hover{
+    background: #FFA940;
+}
+
+.upload-banner-image{
+    width: 60%;
+}
+
+.upload-and-submit{
+    display: flex;
+}

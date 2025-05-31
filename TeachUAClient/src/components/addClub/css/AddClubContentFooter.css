@@ -1,0 +1,37 @@
+.modal-add-club .add-club-content-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-club-content-footer .add-club-content-prev{
+    font-weight: 600;
+    color: #FA8C16;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-club-content-footer .add-club-content-next{
+    background: #FA8C16;
+    color: white;
+    width: 190px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.add-club-content-footer .add-club-content-next-disabled{
+    background: #f5f5ee;
+    color: #c2bbbb;
+    width: 190px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.flooded-button:disabled{
+    cursor:pointer;
+}
+
+.modal-add-club .add-club-add-location-button {
+    justify-content: flex-end;
+}

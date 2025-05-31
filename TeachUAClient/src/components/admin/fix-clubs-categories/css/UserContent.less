@@ -1,0 +1,267 @@
+.user-page{
+  display: flex;
+}
+.user-page .user-content {
+  top: 80px;
+  background: url("user-background.png");
+}
+
+.user-page .content-title, .club-title {
+  padding-top: 65px;
+  padding-left: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2D4C68;
+}
+
+.user-page .content-title, .club-title .club-center-select{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2D4C68;
+}
+
+.user-page .content-title, .club-title .club-center-select .ant-select-selector {
+  border-radius: 6px;
+}
+
+
+.user-page .club-title {
+  padding-top: 54px;
+  display: flex;
+}
+
+.user-page .add-club-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  text-align: center;
+  padding-right: 86px;
+}
+
+.user-page .add-club-dropdown .ant-btn {
+  width: 139px;
+  height: 40px;
+  background: #FA8C16;
+  border: 1px solid #FA8C16;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.user-page .anticon-plus {
+  font-size: 21px;
+  text-align: center
+}
+
+.user-page .ant-dropdown-menu {
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.user-page .ant-dropdown-menu-item > a {
+  font-size: 14px;
+  line-height: 22px;
+  color: #2D4C68;
+}
+
+.user-page .ant-dropdown-menu-item:hover > a {
+  color: #FA8C16;
+}
+
+@media (max-width: 850px) {
+  .user-page .user-content .user-profile-page {
+    background-color: #ffffff;
+    height: 244px;
+    border-radius: 16px;
+    margin-top: 85px;
+    margin-left: 28px;
+    margin-right: 86px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 851px) {
+  .user-page .user-content .user-profile-page {
+    background-color: #ffffff;
+    height: 244px;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-left: 28px;
+    margin-right: 86px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .user-page .user-content .user-info {
+    width: 60%;
+    display: flex;
+    padding-top: 4%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 850px) {
+  .user-page .user-content .user-info {
+    width: 95%;
+    display: flex;
+    padding-top: 4%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 319px) {
+  .user-page .user-content .user-info {
+    width: 49%;
+    display: flex;
+    padding-top: 4%;
+    margin-left: 5%;
+  }
+}
+
+.user-page .user-content .user-name {
+  padding-left: 28px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #2D4C68;
+}
+
+
+.user-page .user-content .user-role {
+  padding-left: 28px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2D4C68;
+  opacity: 0.6;
+}
+
+.user-page .user-contacts {
+  padding-left: 136px;
+  padding-top: 27px;
+}
+
+.user-page .user-phone, .user-email {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2D4C68;
+}
+
+.user-page .user-email {
+  padding-top: 22px;
+}
+
+.user-page .user-phone-data, .user-email-data {
+  display: inline-block;
+  margin-left: 42px;
+  font-size: 16px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.user-page .user-email-data {
+  margin-left: 70px;
+}
+
+.user-profile-page .ant-btn-text {
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 100%;
+  color: #2E69C9;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-page .anticon-arrow-right {
+  font-size: 95%;
+  line-height: 50%;
+  align-items: center;
+}
+
+
+@media (max-width: 850px) {
+
+  .user-profile-page {
+    display: block !important;
+    height: 280px !important;
+    width: 85%;
+  }
+
+  .edit-button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+      font-size:medium;
+  }
+}
+
+@media (min-width: 851px) {
+  .user-profile-page {
+    margin-left: 100px !important;
+    display: block !important;
+    height: 280px !important;
+    margin-right: 120px !important;
+    min-width: 280px;
+  }
+
+  .edit-button {
+    float: right;
+    margin-top: 3%;
+    margin-right: 1% !important;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 500px) {
+  .user-contacts {
+    padding-left: 40px !important;
+    min-width: 250px;
+  }
+
+  .user-page .user-phone-data, .user-email-data {
+    margin-left: 15px !important;
+  }
+
+  .user-page .user-email-data {
+    margin-left: 40px !important;
+  }
+
+  .user-page .user-phone, .user-email {
+    font-size: 14px;
+  }
+
+  .user-page .user-email {
+    padding-top: 10px;
+  }
+
+  .user-page .add-club-dropdown .ant-btn {
+    width: 72px;
+    height: 40px;
+    background: #FA8C16;
+    border: 1px solid #FA8C16;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .user-page .anticon-plus {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 4px;
+    margin-left: 9px;
+  }
+}

@@ -1,0 +1,162 @@
+services:
+  teachua_postgres:
+    image: postgres
+    container_name: teachua_postgres
+    env_file:
+      - TeachUa-docker.env
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5332:5432"
+    networks:
+      - teachua_postgres
+
+  teachua_nginx:
+    image: bnazar00/teachua_nginx:1.1
+    container_name: teachua_nginx
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/security_filter.conf:/etc/nginx/security_filter.conf
+      - ./nginx/security_admin_filter.conf:/etc/nginx/security_admin_filter.conf
+    networks:
+      - spring
+    depends_on:
+      - teachua_main-service
+      - teachua_user
+      - teachua_club
+      - teachua_question
+      - teachua_certificate
+      - teachua_archive
+
+  teachua_zipkin:
+    image: openzipkin/zipkin
+    container_name: teachua_zipkin
+    ports:
+      - "9411:9411"
+    networks:
+      - spring
+
+  teachua_main-service:
+    image: bnazar00/teachua_main-service:1.1
+    container_name: teachua_main-service
+    ports:
+      - "8081:8081"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_postgres
+    depends_on:
+      - teachua_postgres
+      - teachua_zipkin
+
+  teachua_user:
+    image: bnazar00/teachua_user:1.1
+    container_name: teachua_user
+    ports:
+      - "8086:8086"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_postgres
+    depends_on:
+      - teachua_postgres
+      - teachua_zipkin
+
+  teachua_club:
+    image: bnazar00/teachua_club:1.1
+    container_name: teachua_club
+    ports:
+      - "8091:8091"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_postgres
+    depends_on:
+      - teachua_postgres
+      - teachua_zipkin
+
+  teachua_question:
+    image: bnazar00/teachua_question:1.1
+    container_name: teachua_question
+    ports:
+      - "8096:8096"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_postgres
+    depends_on:
+      - teachua_postgres
+      - teachua_zipkin
+
+  teachua_certificate:
+    image: bnazar00/teachua_certificate:1.1
+    container_name: teachua_certificate
+    ports:
+      - "8101:8101"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_postgres
+    depends_on:
+      - teachua_postgres
+      - teachua_zipkin
+      - teachua_archive
+      - teachua_rabbitmq
+
+  teachua_archive:
+    image: bnazar00/teachua_archive:1.1
+    container_name: teachua_archive
+    ports:
+      - "8083:8083"
+    env_file:
+      - TeachUa-docker.env
+    networks:
+      - spring
+      - teachua_mongodb
+    depends_on:
+      - teachua_zipkin
+      - teachua_mongodb
+      - teachua_rabbitmq
+
+  teachua_rabbitmq:
+    image: rabbitmq:3.12.1-management-alpine
+    container_name: teachua_rabbitmq
+    env_file:
+      - TeachUa-docker.env
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - spring
+
+  teachua_mongodb:
+    image: mongo
+    container_name: teachua_mongodb
+    env_file:
+      - TeachUa-docker.env
+    volumes:
+      - mongo:/data
+    ports:
+      - "26017:27017"
+    networks:
+      - teachua_mongodb
+
+
+networks:
+  teachua_postgres:
+    driver: bridge
+  spring:
+    driver: bridge
+  teachua_mongodb:
+    driver: bridge
+
+volumes:
+  postgres:
+  mongo:

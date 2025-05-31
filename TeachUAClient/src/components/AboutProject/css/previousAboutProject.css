@@ -1,0 +1,278 @@
+.previousAboutProject .title {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.previousAboutProject .title .text {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.previousAboutProject .title .content {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 64px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.previousAboutProject .social-media {
+
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-self: center;
+}
+
+.previousAboutProject .social-media .links {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.previousAboutProject .social-media .icon {
+    color: #2D4C68;
+    font-size: 1.3em;
+}
+
+.previousAboutProject .social-media .text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D4C68;
+    vertical-align: center;
+}
+
+.previousAboutProject .donate-button {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #FA8C16;
+    color: #FFFFFF;
+}
+
+.previousAboutProject .donate-button:hover {
+    color: white;
+    background: #FFA940;
+}
+
+.previousAboutProject .social-info {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.previousAboutProject .help-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.previousAboutProject .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.previousAboutProject .content .title-content {
+    padding-top:0;
+    width: 620px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+    text-align: center;
+}
+.previousAboutProject .content .ambassador {
+    padding-top:0;
+    width: 100%;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+    text-align: center;
+}
+
+.previousAboutProject .content-text {
+    width: 620px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.previousAboutProject .organaizer {
+    width:100%;
+}
+
+.previousAboutProject .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*margin-top: 20px;*/
+    /*margin-bottom:10px;*/
+}
+
+.previousAboutProject .row .col {
+    box-sizing: border-box;
+    width:75%;
+    /*height:360px;
+     */
+    margin: 0px 15px 15px 15px;
+
+}
+.previousAboutProject .row .info{
+    /*padding-top: 26px;*/
+    padding-bottom: 45px;
+}
+.previousAboutProject .row .main{
+    padding-top: 0px;
+    padding-bottom: 45px;
+}
+.previousAboutProject .row .col .text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+}
+.previousAboutProject .row .col .name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    margin-top:20px;
+    margin-bottom: 6px;
+}
+.previousAboutProject .row .col .position {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D4C68;
+    opacity: 0.6;
+}
+
+.previousAboutProject .content .sport {
+    text-align: left;
+}
+
+.previousAboutProject .sport-clubs .video {
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.previousAboutProject .addit-information{
+    margin-top:100px;
+}
+
+.previousAboutProject .image {
+    height: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: static;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+}
+
+.previousAboutProject .image {
+    height: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media(min-width: 319px) and (max-width: 824px) {
+    .previousAboutProject .title .text {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .previousAboutProject .social-info {
+        height: 10px;
+        display: contents !important;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+
+    .previousAboutProject .help-button {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .previousAboutProject .content .title-content {
+        padding-top: 15px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .previousAboutProject .content-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    img {
+        vertical-align: middle;
+        der-style: none;
+        margin: 0 auto;
+    }
+
+    .previousAboutProject .row .col .text {
+        width: 90vw;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .previousAboutProject .row {
+        display: grid;
+    }
+
+    .previousAboutProject .row .col .name {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .previousAboutProject .row .col .position {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .previousAboutProject .row .main {
+        padding-bottom: 0px;
+    }
+
+    .previousAboutProject .image {
+        margin-left: 30px;
+    }
+}

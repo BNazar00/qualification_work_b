@@ -1,0 +1,65 @@
+.import-page {
+    margin: 7% 15% 15% 10%;
+}
+
+
+.formId{
+    margin-top: 1%;
+    width: 80%;
+}
+
+.back-btn-quiz {
+    margin: 5% 10% 0 20%;
+    float: right;
+    /*padding-top: 25px;*/
+}
+
+.radio-group {
+    margin: 0 0 10px 10px;
+}
+
+.radio-button {
+    margin-right: 5px;
+}
+
+.warn-icon {
+    color: #ec9700;
+}
+
+.error-icon {
+    color: #ff4d4f;
+}
+
+.ok-icon {
+    color: #4dffa3;
+}
+
+
+.import-db-list-item {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.text-hint-quiz {
+    color: #002766;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ant-form-item{
+    margin-bottom: 10px;
+}
+
+
+.buttons {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.dropdown {
+    width: 25% !important;
+}

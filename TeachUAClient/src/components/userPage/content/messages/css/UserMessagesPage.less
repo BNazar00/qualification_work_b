@@ -1,0 +1,102 @@
+.messagesContent {
+  top: 80px;
+  background: url("../../css/user-background.png");
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messagesContent .contentBox {
+  width: 80%;
+  margin-top: 55px;
+}
+
+.messagesContent .contentTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2D4C68;
+}
+
+.messagesContent .messages {
+  margin-top: 40px;
+}
+
+.messagesContent .message {
+  width: 100%;
+  height: min-content;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.messagesContent .noMessages {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2D4C68;
+}
+
+.messagesContent .ant-collapse {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 100px 80px rgba(1, 16, 44, 0.03), 0 12px 10px rgba(1, 16, 44, 0.04);
+}
+
+.messagesContent .ant-collapse > .ant-collapse-item {
+  border-bottom: none;
+}
+
+.messagesContent .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 15px 15px 9px 40px;
+  margin: 0 0 70px 0;
+  border-bottom: 1px solid #D9D9D9;
+  border-radius: unset;
+  color: #2D4C68;
+}
+
+.messagesContent .ant-collapse-item > .ant-collapse-header > div > .ant-collapse-arrow {
+  font-size: 20px;
+  vertical-align: -5px;
+  color: #2E69C9;
+}
+
+.messagesContent .ant-collapse > .ant-collapse-item > .ant-collapse-content {
+  border-top: 1px solid #fff;
+}
+
+.messagesContent .ant-collapse > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+  margin: -5px 40px 24px 40px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #2D4C68;
+  opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+
+  .messagesContent {
+    margin-top: 120px;
+  }
+
+  .contentBox {
+    margin-top: 30px;
+  }
+}

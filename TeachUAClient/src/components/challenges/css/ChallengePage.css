@@ -1,0 +1,292 @@
+/*CSS for text editor*/
+.challenge-page .challenge-description ol, p {
+    width: 100%;
+}
+
+.challenge-page .challenge-description .ql-align-center {
+    text-align: center;
+}
+
+.challenge-page .challenge-description .ql-align-right {
+    text-align: right;
+}
+
+.challenge-page .challenge-description .ql-align-justify {
+    text-align: justify;
+}
+
+.challenge-page .challenge-description .ql-video {
+    width: 100%;
+    height: 378px;
+    border-radius: 13px;
+}
+
+.challenge-page .challenge-description .desc-img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.challenge-page .challenge-description .ql-indent-1 {
+    margin-left: 25px;
+}
+
+.challenge-page .challenge-description .ql-indent-2 {
+    margin-left: 50px;
+}
+
+.challenge-page .challenge-description .ql-indent-3 {
+    margin-left: 75px;
+}
+
+.challenge-page .challenge-description .ql-indent-4 {
+    margin-left: 100px;
+}
+
+.challenge-page .challenge-description .ql-indent-5 {
+    margin-left: 125px;
+}
+
+.challenge-page .challenge-description .ql-indent-6 {
+    margin-left: 150px;
+}
+.challenge-page .challenge-description .ql-indent-7 {
+    margin-left: 175px;
+}
+.challenge-page .challenge-description .ql-indent-8 {
+    margin-left: 200px;
+}
+
+/* table */
+.challenge-page .challenge-description .hardcoded-table {
+    border: 1px solid black;
+    border-color: #2D4C68;
+    border-collapse: collapse;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.challenge-page .challenge-description .hardcoded-table tr {
+    border: 1px solid black;
+    border-color: #2D4C68;
+    border-collapse: collapse;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.challenge-page .challenge-description .hardcoded-table td {
+    border: 1px solid black;
+    border-color: #2D4C68;
+    border-collapse: collapse;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.challenge-page .challenge-description .hardcoded-table a {
+    word-wrap: break-word;
+    color: #58a6ff;
+}
+
+/* 404 */
+.challenge-not-found {
+    margin: 0 -87px -20px -87px;
+    background: white;
+    border-top: 2px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+/* Banner */
+.challenge-page .banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.challenge-page .banner .title {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Button to reg form */
+.challenge-page .button-div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Full desc in middle */
+
+.challenge-page .challenge-description a {
+    color: rgb(88, 166, 255);
+}
+
+.challenge-page .challenge-description {
+    margin-left: 25%;
+    display: flex;
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h1 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h2 {
+    margin-bottom: 24px;
+    font-size: 25px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h3 {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h4 {
+    margin-bottom: 24px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h5 {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.challenge-page .challenge-description h6 {
+    margin-bottom: 24px;
+    font-size: 13px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+/* Для конкретного відео в Навчай українською */
+.challenge-page .challenge-description .webinar-items {
+    margin-top: 8px;
+}
+
+.challenge-page .challenge-description .webinar-items .text span {
+    color: #2D4C68;
+    text-decoration: underline;
+}
+
+.challenge-page .content-text {
+    width: 620px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+    .challenge-page .challenge-description {
+        font-size: 16px;
+    }
+
+    .challenge-page .button-div {
+        margin-top: 5%;
+        margin-bottom: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .challenge-page .challenge-description h1 {
+        font-size: 22px;
+    }
+
+    .challenge-page .challenge-description h2 {
+        font-size: 18px;
+    }
+
+    .challenge-page .challenge-description h3 {
+        font-size: 16px;
+    }
+
+    .challenge-page .challenge-description h4 {
+        font-size: 15px;
+    }
+
+    .challenge-page .challenge-description h5 {
+        font-size: 14px;
+    }
+
+    .challenge-page .challenge-description h6 {
+        font-size: 13px;
+    }
+
+    .challenge-page .banner .title {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 824px) {
+
+    .challenge-page .banner .title {
+        font-size: 36px !important;
+        text-align: center;
+    }
+
+    .challenge-page .challenge-description {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 21px !important;
+    }
+
+    .challenge-page .challenge-description h1 {
+        font-size: 20px;
+    }
+
+    .challenge-page .challenge-description h2 {
+        font-size: 18px;
+    }
+
+    .challenge-page .challenge-description h3 {
+        font-size: 16px;
+    }
+
+    .challenge-page .challenge-description h4 {
+        font-size: 15px;
+    }
+
+    .challenge-page .challenge-description h5 {
+        font-size: 14px;
+    }
+
+    .challenge-page .challenge-description h6 {
+        font-size: 13px;
+    }
+
+    .challenge-page .title .text {
+        font-size: 36px;
+        text-align: center;
+    }
+
+}

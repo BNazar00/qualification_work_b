@@ -1,0 +1,28 @@
+.input-address-auto-complete .css-1pahdxg-control {
+    border-color: inherit !important;
+    box-shadow: none;
+}
+
+.input-address-auto-complete .css-1hwfws3 {
+    max-width: 85%;
+}
+
+.input-address-auto-complete .wrong-city-alert {
+    color: #ff4d4f;
+}
+
+.ant-form-item-has-error .css-yk16xz-control {
+    border-color: #ff4d4f !important;
+}
+
+.ant-form-item-has-error .css-1wy0on6,
+.ant-form-item-has-success .css-1wy0on6 {
+    position: absolute;
+    right: 20px;
+}
+
+@media (max-width: 700px) {
+    .input-address-auto-complete .css-1hwfws3 {
+        max-width: 65%;
+    }
+}

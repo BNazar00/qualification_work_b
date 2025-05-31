@@ -1,0 +1,301 @@
+.challenge-day-carousel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.challenge-day-carousel .challenge-day-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-image-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.challenge-day-carousel .day-image {
+  display: flex;
+  pointer-events: none;
+  max-width: 100%;
+  max-height: 100%;
+  height: 200px;
+  width: 340px;
+  user-select: none;
+  z-index: 10;
+  min-width: 20px;
+  min-height: 180px;
+  border-radius: 7px;
+}
+
+.challenge-day-carousel .challenge-day-header .label {
+  font-size: 32px;
+  color: #2d4c68;
+  font-weight: 700;
+}
+
+.challenge-day-carousel .more-button {
+  border-radius: 6px;
+  width: 134px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.challenge-day-carousel .challenge-day-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.challenge-day-cards .ant-carousel {
+  margin: 0 18px 0 18px;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.challenge-day-carousel .primitive-card {
+  background: white;
+  width: 390px;
+  height: 390px;
+}
+
+.arrows-prev {
+  font-size: 21px;
+  color: #fa8c16;
+  position: absolute;
+  left: 40px;
+  margin-top: 170px;
+}
+
+.arrows-next {
+  font-size: 21px;
+  color: #fa8c16;
+  position: absolute;
+  right: 40px;
+  margin-top: 170px;
+}
+
+.challenge-day-carousel .primitive-card .content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.challenge-day-carousel .primitive-card {
+  box-shadow: none;
+}
+
+.challenge-day-carousel .ant-carousel .slick-slide {
+  justify-content: center;
+  display: flex;
+}
+
+.challenge-day-carousel .ant-carousel .slick-slider {
+  /*text-align: center; */
+  font-size: 24px;
+}
+
+.challenge-day-carousel .slick-dots li button,
+.challenge-day-carousel .slick-dots li {
+  background: #c4c4c4;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.challenge-day-carousel .slick-dots li.slick-active button,
+.challenge-day-carousel .slick-dots li.slick-active {
+  background: #fa8c16;
+  width: 12px;
+}
+
+.challenge-day-carousel .ant-carousel .slick-dots {
+  margin: 30px auto 30px auto;
+  position: relative;
+  bottom: 0;
+}
+
+/* .ant-carousel .slick-dots */
+
+.challenge-day-carousel .primitive-card .content .name {
+  font-size: 22px;
+  margin: 16px 0 0 0;
+}
+
+/* .about-challenge-day .pagination {
+    margin: 60px auto 0 auto;
+} */
+
+.challenge-day-carousel .pagination .ant-pagination-item {
+  border-radius: 100%;
+}
+
+.challenge-day-carousel .ant-pagination.mini .ant-pagination-item {
+  min-width: 12px;
+  background: none;
+  border: none;
+}
+
+.challenge-day-carousel .pagination .ant-pagination-prev,
+.challenge-day-carousel .pagination .ant-pagination-next {
+  display: none;
+}
+
+.challenge-day-carousel .pagination .ant-pagination-item a {
+  color: rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  background: #c4c4c4;
+}
+
+.challenge-day-carousel .pagination .ant-pagination-item-active a {
+  background: #fa8c16;
+}
+
+.arrows-prev,
+.arrows-next {
+  display: none;
+}
+
+.challenge-day-carousel .challenge-day-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.challenge-day-carousel .challenge-day-footer .more-button {
+  width: 296px;
+}
+
+.challenge-day-carousel .challenge-day-header .label {
+  margin: 0;
+}
+
+.challenge-day-carousel .challenge-day-header {
+  padding: 0 2rem;
+}
+
+.challenge-day-header a {
+  display: none;
+}
+
+.challenge-day-carousel .pagination {
+  margin: 30px auto 15px auto;
+}
+
+@media screen and (min-width: 576px) {
+  .arrows-prev,
+  .arrows-next {
+    display: none;
+  }
+  .challenge-day-header a {
+    display: block;
+  }
+  .challenge-day-footer a {
+    display: none;
+  }
+  .challenge-day-carousel .pagination {
+    margin: 60px auto 0 auto;
+  }
+  .challenge-day-carousel .ant-carousel .slick-slide {
+    z-index: -10;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .arrows-prev,
+  .arrows-next {
+    display: block;
+  }
+  .arrows-prev {
+    left: 20px;
+  }
+  .arrows-next {
+    right: 20px;
+  }
+  .challenge-day-carousel .ant-carousel .slick-slide {
+    z-index: -10;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .challenge-day-carousel .challenge-day-header {
+    padding: 0rem;
+  }
+  .arrows-prev {
+    left: 40px;
+  }
+  .arrows-next {
+    right: 40px;
+  }
+  .challenge-day-carousel .ant-carousel .slick-slide {
+    z-index: -10;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 868px) {
+  .challenge-day-carousel .primitive-card {
+    width: 290px;
+    height: 390px;
+  }
+  .challenge-day-carousel .slick-dots li button,
+  .challenge-day-carousel .slick-dots li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+  }
+  .challenge-day-carousel .challenge-day-header .label {
+    font-size: 24px;
+  }
+  .challenge-day-carousel .slick-dots li.slick-active button,
+  .challenge-day-carousel .slick-dots li.slick-active {
+    background: #fa8c16;
+    width: 8px;
+  }
+  .challenge-day-carousel .primitive-card .content .name {
+    font-size: 20px;
+  }
+  .challenge-day-carousel .challenge-day-header .label {
+    text-align: center;
+  }
+  .challenge-day-carousel .ant-carousel .slick-slide {
+    z-index: -10;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 336px) {
+  .challenge-day-carousel .primitive-card {
+    width: 270px;
+    height: 390px;
+  }
+  .challenge-day-carousel .slick-dots li button,
+  .challenge-day-carousel .slick-dots li {
+    background: #c4c4c4;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+  }
+  .challenge-day-carousel .slick-dots li.slick-active button,
+  .challenge-day-carousel .slick-dots li.slick-active {
+    background: #fa8c16;
+    width: 8px;
+  }
+  .challenge-day-carousel .primitive-card .content .name {
+    font-size: 20px;
+  }
+  .challenge-day-carousel .challenge-day-header .label {
+    font-size: 24px;
+  }
+  .challenge-day-carousel .ant-carousel .slick-slide {
+    z-index: -10;
+  }
+}

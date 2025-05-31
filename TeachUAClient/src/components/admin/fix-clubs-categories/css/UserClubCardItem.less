@@ -1,0 +1,261 @@
+.user-clubs .card {
+  height: 433px;
+  width: 296px;
+  color: black;
+  box-shadow: 0px 100px 80px rgba(1, 16, 44, 0.03), 0px 12.5216px 10.0172px rgba(1, 16, 44, 0.035);
+  border-radius: 16px;
+  padding: 24px;
+  cursor: pointer;
+  margin: 0 5px 28px 40px;
+}
+
+
+.user-clubs .card .ant-card-head-title {
+  white-space: normal;
+}
+
+
+.user-clubs .cards .ant-space-item {
+  margin-right: 0;
+  padding-bottom: 0;
+  margin-left: -4%;
+}
+
+
+.user-clubs .card .title {
+  display: flex;
+  justify-content: space-between;
+  line-height: 22px;
+  width: 100%;
+  height: 44px;
+}
+
+
+.user-clubs .card .side-menu {
+  font-size: 20px;
+  color: #2D4C68;
+}
+
+.user-clubs .club-tags-box {
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-clubs .tags {
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.user-clubs .tags .tag .icon {
+  width: 14px;
+  min-width: 14px;
+  height: 14px;
+  margin-right: 4.8px;
+}
+
+
+.user-clubs .tags .tag .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-clubs .and {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.user-clubs .card .title-name {
+  height: 46px;
+  width: 200px;
+  color: #002766;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 7px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+.user-clubs .icon-box {
+  display: inline-flex;
+  min-width: 42px;
+  min-height: 42px;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+
+.user-clubs .icon {
+  pointer-events: none;
+  user-select: none;
+  width: 24px;
+  height: 24px;
+}
+
+
+.user-clubs .card .details-button {
+  top: 15px;
+  font-weight: 600;
+  height: 40px;
+  width: 100%;
+  color: @primary-hover-color;
+  border-color: @primary-hover-color;
+}
+
+
+.user-clubs .card .description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  width: 100%;
+  overflow: hidden;
+  height: 64px;
+  margin-top: 15px;
+  color: #2D4C68;
+}
+
+
+.user-clubs .card .with-center {
+  overflow: hidden;
+}
+
+
+.user-clubs .card .with-center .description {
+  -webkit-line-clamp: 3;
+  height: 68px;
+}
+
+
+.user-clubs .card .details-button:hover {
+  color: #002766;
+  border-color: #002766;
+}
+
+
+.user-clubs .card .address {
+  color: #2D4C68;
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  display: flex;
+  font-weight: 600;
+}
+
+
+.user-clubs .card .address .text {
+  opacity: 0.6;
+}
+
+
+.user-clubs .card .address-icon {
+  font-size: 1.5em;
+  color: #FFA62C;
+  margin-right: 11px;
+  margin-left: 4px;
+}
+
+
+.user-clubs .card .rating {
+  margin-left: 4px;
+}
+
+@media (min-width: 1200px) {
+.user-clubs .cards {
+  min-height: 50vh;
+  align-content: flex-start;
+  justify-content: center;
+  max-width: 1268px;
+  min-width: 628px;
+}}
+
+@media (max-width: 1200px) {
+  .user-clubs .cards {
+    min-height: 50vh;
+    align-content: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
+  }}
+
+.user-clubs .clubs {
+  align-items: center;
+}
+
+.user-clubs .cards:last-child {
+  margin-bottom: 0;
+}
+
+.user-clubs .cards .empty {
+  background: none;
+  box-shadow: none;
+  border: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.user-clubs .cards .ant-card-body {
+  padding: 0;
+  width: 248px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.user-clubs .cards .empty .ant-card-body {
+  padding: 0;
+}
+
+.user-clubs .cards .ant-card-head {
+  border-bottom: none;
+}
+
+.user-clubs .update-club-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ant-dropdown-menu-item > a {
+  font-size: 14px;
+  border-radius: 10px !important;
+  line-height: 22px;
+  width: 136px;
+  color: #2D4C68;
+}
+
+.ant-dropdown-menu-item:hover > a {
+  color: #FA8C16;
+}
+
+.user-clubs .user-clubs-pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+@keyframes loader-animation {
+  0% {
+    width: 0;
+  }
+  49% {
+    width: 100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+    width: 100%
+  }
+}
+

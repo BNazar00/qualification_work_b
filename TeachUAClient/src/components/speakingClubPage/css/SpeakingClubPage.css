@@ -1,0 +1,223 @@
+.speakingclub-page .banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.speakingclub-page .banner .title {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+}
+
+.speakingclub-page .details-button {
+    width: 185px;
+    height: 48px;
+    background: #FA8C16;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakingclub-page .button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakingclub-page .google-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakingclub-page .speakingclub-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakingclub-page .speakingclub-description .title {
+    width: 620px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2D4C68;
+}
+
+.speakingclub-page .speakingclub-description .subtitle {
+    width: 620px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    font-style: italic;
+    color: #2D4C68;
+}
+
+.speakingclub-page .speakingclub-description .text {
+    width: 620px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+}
+
+.speakingclub-page .speakingclub-description .webinar-items {
+    margin-top: 8px;
+}
+
+.speakingclub-page .speakingclub-description .webinar-items .text span {
+    color: #2D4C68;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .speakingclub-page .details-button {
+        margin-left: 0px;
+    }
+    .speakingclub-page .speakingclub-description .text {
+        font-size: 14px;
+        width: 100%;
+    }
+    .speakingclub-page .banner .title {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .speakingclub-page .speakingclub-description .title {
+        font-size: 20px;
+        width: 100%;
+    }
+    .speakingclub-page .speakingclub-description .subtitle {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 824px) {
+    .speakingclub-page .details-button {
+        margin-left: 0px;
+    }
+    .speakingclub-page .banner .title {
+        font-size: 36px!important;
+        text-align: center;
+    }
+    .speakingclub-page .speakingclub-description {
+        margin-top: 21px !important;
+    }
+    .speakingclub-page .speakingclub-description .title {
+        text-align: center;
+    }
+    .speakingclub-page .speakingclub-description .subtitle {
+        text-align: center;
+    }
+    .speakingclub-page .title .text {
+        font-size: 36px;
+        text-align: center;
+    }
+    .speakingclub-page .social-info {
+        height: 10px;
+        display: contents !important;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+    .speakingclub-page .help-button {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+}
+
+.speakingclub-page .social-media {
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-self: center;
+}
+
+.speakingclub-page .social-media .links {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.speakingclub-page .social-media .icon {
+    color: #2D4C68;
+    font-size: 1.3em;
+}
+
+.speakingclub-page .social-media .text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2D4C68;
+    vertical-align: center;
+}
+
+.speakingclub-page .social-info {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.speakingclub-page .help-button {
+    display: flex;
+    align-items: center;
+}
+
+.speakingclub-page .content-text {
+    width: 620px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D4C68;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.speakingclub-page .donate-button {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #FA8C16;
+    color: #FFFFFF;
+}
+
+.speakingclub-page .details-back {
+    width: 420px;
+    height: 48px;
+    background: #FA8C16;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    font-size: 18px;
+    /*margin-left: 33%;*/
+}
+
+.speakingclub-page .button-alain {
+    text-align: center !important;
+}

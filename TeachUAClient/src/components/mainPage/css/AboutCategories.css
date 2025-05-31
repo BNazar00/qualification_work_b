@@ -1,0 +1,205 @@
+.about-categories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.about-categories .categories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-categories .categories-header .label {
+    font-size: 32px;
+    color: #2d4c68;
+    font-weight: 700;
+}
+
+.about-categories .more-button {
+    border-radius: 6px;
+    width: 134px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.about-categories .categories-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.categories-cards .ant-carousel {
+    margin: 0 27px 0 27px;
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-categories .primitive-card {
+    background: white;
+    width: 296px;
+    height: 310px;
+}
+.arrows-prev {
+    font-size: 21px;
+    color: #fa8c16;
+    position: absolute;
+    left: 40px;
+    margin-top: 170px;
+}
+
+.arrows-next {
+    font-size: 21px;
+    color: #fa8c16;
+    position: absolute;
+    right: 40px;
+    margin-top: 170px;
+}
+
+.about-categories .primitive-card .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.about-categories .primitive-card {
+    box-shadow: none;
+}
+.about-categories .ant-carousel .slick-slide {
+    justify-content: center;
+    display: flex;
+}
+
+.about-categories .ant-carousel .slick-slider {
+    text-align: left;
+    font-size: 24px;
+}
+
+.about-categories .ant-carousel .slick-dots {
+    margin: 30px auto 30px auto;
+    position: relative;
+    bottom: 0;
+}
+
+/* .ant-carousel .slick-dots */
+
+.about-categories .primitive-card .content .name {
+    margin: 16px 0 0 0;
+}
+
+/* .about-categories .pagination {
+    margin: 60px auto 0 auto;
+} */
+
+.about-categories .pagination .ant-pagination-item {
+    border-radius: 100%;
+}
+
+.about-categories .ant-pagination.mini .ant-pagination-item {
+    min-width: 12px;
+    background: none;
+    border: none;
+    margin-left: 9px;
+}
+.about-categories .pagination .ant-pagination-prev,
+.about-categories .pagination .ant-pagination-next {
+    display: none;
+}
+
+.about-categories .pagination .ant-pagination-item a {
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background: #c4c4c4;
+}
+
+.about-categories .pagination .ant-pagination-item-active a {
+    background: #fa8c16;
+}
+
+.arrows-prev,
+.arrows-next {
+    display: none;
+}
+.about-categories .categories-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-categories .categories-footer .more-button {
+    width: 296px;
+}
+.about-categories .categories-header .label {
+    margin: 0;
+}
+.about-categories .categories-header {
+    padding: 0 2rem;
+}
+.categories-header a {
+    display: none;
+}
+.about-categories .pagination {
+    margin: 30px auto 15px auto;
+}
+
+@media screen and (min-width: 576px) {
+    .arrows-prev,
+    .arrows-next {
+        display: none;
+    }
+    .categories-header a {
+        display: block;
+    }
+    .categories-footer a {
+        display: none;
+    }
+    .about-categories .pagination {
+        margin: 60px auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .arrows-prev,
+    .arrows-next {
+        display: block;
+    }
+    .arrows-prev {
+        left: 20px;
+    }
+    .arrows-next {
+        right: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-categories .categories-header {
+        padding: 0rem;
+    }
+    .arrows-prev {
+        left: 40px;
+    }
+    .arrows-next {
+        right: 40px;
+    }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 868px) {
+    .about-categories .categories-header .label {
+        text-align: center;
+    }
+
+    .about-categories .categories-header {
+        margin-top: 3%;
+    }
+}
+@media (min-device-width : 320px) and (max-device-width : 336px) {
+    .about-categories .primitive-card {
+        width: 270px;
+        height: 300px;
+    }
+}

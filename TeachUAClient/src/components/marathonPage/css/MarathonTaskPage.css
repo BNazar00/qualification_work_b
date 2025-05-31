@@ -1,0 +1,225 @@
+@media (max-device-width: 1050px) {
+
+    .innerHTML-from-js  a{
+        color: #58a6ff;
+        text-align: unset;
+    }
+}
+
+@media (min-device-width: 1050px) {
+     .innerHTML-from-js a {
+        color: #58a6ff;
+    }
+}
+
+.task-text .innerHTML-from-js #headline {
+    font-weight: bold;
+}
+
+.task-image-par {
+    display: contents;
+}
+
+@media (max-width: 950px) {
+    .marathon-task-page {
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width: 500px)
+and (max-width: 1000px) {
+    .marathon-task-page {
+        background: #f7e0d3;
+        color: #f7e0d3;
+        /* margin-top: 18%;*/
+        flex-direction: column !important;
+    }
+}
+
+@media (min-device-width: 320px)
+and (max-device-width: 500px) {
+    .marathon-task-page {
+        /* margin-top: 28%;*/
+        background: #f7e0d3;
+        flex-direction: column !important;
+    }
+}
+
+@media (min-device-width: 320px)
+and (max-device-width: 1000px) {
+    .page-task-content {
+        margin-top: 5%;
+        align-items: center;
+        display: flex;
+        align-content: space-between;
+        color: #2D4C68;
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+
+    .task-header {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: inherit;
+        color: #2D4C68;
+    }
+
+    .task-image {
+        border-radius: 4%;
+        width: 90%;
+    }
+
+    .header-content {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 85%;
+    }
+
+    .task-content {
+        width: 85%;
+    }
+
+    .task-text {
+        font-family: Open Sans;
+        font-style: normal;
+        text-align: justify;
+        white-space: pre-line;
+        font-size: 16px;
+
+    }
+
+
+    .task-info {
+        font-family: Open Sans;
+        font-style: normal;
+        text-align: justify;
+        font-size: 16px
+
+    }
+
+    .task-subheader {
+        font-family: Open Sans;
+        font-style: italic;
+        text-align: center;
+        color: #2D4C68;
+        font-size: 16px
+    }
+
+    .task-task-header {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: initial;
+        color: #2D4C68
+    }
+
+
+}
+
+@media (min-device-width: 1000px) {
+
+    .marathon-task-page {
+        align-items: center;
+        background: #f7e0d3
+    }
+
+    .page-task-content {
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        color: #2D4C68;
+        font-size: 18px;
+        width: 90%;
+        margin-top: 3%;
+
+    }
+
+    .task-header {
+        font-size: 32px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        margin-top: -30%;
+        color: #2D4C68;
+        margin-bottom: 2%;
+        align-content: center;
+    }
+
+    .task-image {
+        margin: 0;
+        width: 40%;
+        border-radius: 4%;
+        align-self: flex-end;
+    }
+
+    .header-content {
+        margin-top: -8%;
+        width: 45vw;
+        position: relative;
+    }
+
+    .task-content {
+        position: center;
+        width: 45vw;
+        margin-top: 10%;
+        align-self: center
+    }
+
+    .task-text {
+        font-family: Open Sans;
+        font-style: normal;
+        text-align: justify;
+        margin-top: 2%;
+        white-space: pre-line;
+        font-size: 18px;
+
+    }
+
+
+    .task-info {
+        font-family: Open Sans;
+        font-style: normal;
+        margin-bottom: 5%;
+        text-align: justify;
+        margin-top: 1%;
+
+    }
+
+     .innerHTML-from-js a {
+        color: #58a6ff;
+    }
+
+   .innerHTML-from-js a {
+        color: #58a6ff;
+    }
+
+    .innerHTML-from-js #headline {
+        font-weight: bold;
+    }
+
+    .task-subheader {
+        font-family: Open Sans;
+        font-style: italic;
+        text-align: center;
+        color: #2D4C68;
+        font-size: 20px
+    }
+
+    .task-task-header {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        /*margin-bottom: 2%;*/
+        margin-top: 2%;
+        font-size: 32px;
+        color: #2D4C68
+    }
+
+
+}
+
+
+
+

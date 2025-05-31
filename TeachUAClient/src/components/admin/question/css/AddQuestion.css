@@ -1,0 +1,21 @@
+.add-question{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.add-question .add-question-input {
+    width: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.add-question-button {
+    background: #FA8C16;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.add-question-button:hover {
+    background: #FFA940;
+}

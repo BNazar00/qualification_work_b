@@ -1,0 +1,71 @@
+.club-list .center-list-content .center-list-rectangle-item {
+  width: 100%;
+  height: fit-content;
+}
+
+.center-list-content .center-list-rectangle-item .ant-card-body {
+  width: 100%;
+  height: 104%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center-list-content .center-list-rectangle-item .item-rectangle-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.center-list-content .center-list-rectangle-item .center-name {
+  width: 94%;
+}
+.center-list-content .item-rating-address .center-address {
+  height: 30px;
+  display: flex;
+}
+
+.center-list-content .center-list-rectangle-item .center-description {
+  width: 130px;
+  /*height: 50px;*/
+}
+
+.center-list-content .center-list-rectangle-item .details-button {
+  width: 30%;
+}
+.center-list-content .center-list-rectangle-item .center-address {
+  width: 240px;
+}
+.center-list-content .list-rectangle-item .rating {
+  width: 170px;
+}
+
+.center-list-content .center-list-rectangle-item .item-rating-address {
+  height: 68%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.center-description {
+  display: flex;
+  /*align-items: center;*/
+  line-height: 22px;
+  width: 100%;
+  height: 44px;
+}
+
+@media (max-width: 770px) {
+  .center-list-content .center-list-rectangle-item .center-name {
+    width: 88%;
+  }
+}
+
+@media (max-width: 480px) {
+  .center-list-content .center-list-rectangle-item .details-button {
+    display: none;
+  }
+  .center-list-content .center-list-rectangle-item .center-name {
+    width: 80%;
+  }
+}

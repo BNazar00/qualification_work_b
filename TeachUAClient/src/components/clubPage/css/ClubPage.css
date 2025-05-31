@@ -1,0 +1,12 @@
+@media (max-width: 950px) {
+    .club-page {
+        flex-direction: column!important;
+    }
+}
+
+.club-not-found {
+    margin: 0 -87px -20px -87px;
+    background: white;
+    border-top: 2px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}

@@ -1,0 +1,88 @@
+.clubsOfCenter {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.clubsOfCenter .ant-checkbox-group{
+    width: 100%;
+}
+.clubsOfCenter .form-item{
+    row-gap: 0px;
+    flex-wrap: wrap;
+}
+.clubsOfCenter .form-fields{
+    overflow-y: scroll;
+    height: 300px;
+}
+.clubsOfCenter .checkbox-item{
+
+    margin-top: 20px;
+    height:50px;
+    border-radius:15px;
+    width: 99%;
+    padding:5px;
+    margin:2px;
+    padding-left:10px;
+    margin-bottom:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.clubsOfCenter .icon-box {
+    min-height: 35px;
+    min-width:35px;
+    width:35px;
+    height:35px;
+    vertical-align: middle;
+}
+
+.clubsOfCenter .checkbox-item label {
+    align-items: center;
+    height:100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.clubsOfCenter .ant-checkbox {
+    margin-bottom: 5px;
+}
+
+.clubsOfCenter .checkbox-item label span {
+    vertical-align: middle;
+    max-height: 45px;
+}
+
+.clubsOfCenter .checkbox-item-content {
+    height:45px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    max-height: 45px;
+}
+
+.clubsOfCenter .club-name {
+    margin-left:10px;
+}
+
+.clubsOfCenter .add-club-modal{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FA8C16;
+}
+
+.clubsOfCenter .ant-form-item-control {
+    box-sizing: border-box;
+    max-height: 300px;
+    /* overflow-y: scroll; */
+}
+
+@media (min-width: 320px) and (max-width: 577px) {
+    .clubsOfCenter .form-item{
+        flex-direction: row;
+    }
+}

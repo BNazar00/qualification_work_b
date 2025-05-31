@@ -1,0 +1,19 @@
+.add-district {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-district .add-district-input {
+    width: 200px;
+    margin: 0 5px 0 5px;
+}
+
+.add-district .add-district-button {
+    background: #FA8C16;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.add-district .add-district-button:hover {
+    background: #FFA940;
+}

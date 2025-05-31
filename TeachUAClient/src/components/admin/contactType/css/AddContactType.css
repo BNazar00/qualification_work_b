@@ -1,0 +1,19 @@
+.add-contact-type {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-contact-type .add-contact-type-input {
+    width: 200px;
+    margin: 0 5px 0 5px;
+}
+
+.add-contact-type .add-contact-type-button {
+    background: #FA8C16;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.add-contact-type .add-contact-type-button:hover {
+    background: #FFA940;
+}

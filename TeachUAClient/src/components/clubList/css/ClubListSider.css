@@ -1,0 +1,199 @@
+.club-list-sider {
+    flex: 0 0 382px !important;
+    max-width: 382px !important;
+    min-width: 382px !important;
+    width: 382px !important;
+    background: white;
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+
+.club-list-sider .club-list-label {
+    font-weight: 600;
+    color: #2d4c68;
+    font-size: 24px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+.club-list-sider .club-list-row label {
+    font-size: 18px;
+    text-align: left;
+    padding-right: 16px;
+    display: block;
+    color: #2d4c68;
+}
+
+.club-list-sider .club-list-row label:after {
+    content: none;
+}
+
+.club-list-sider .club-list-row {
+    flex-direction: column;
+    text-align: left;
+}
+
+.club-list-sider .club-list-select {
+    width: 256px;
+}
+
+.club-list-sider .club-list-select .ant-select-selector {
+    height: 40px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.club-list-sider .club-list-kind label,
+.club-list-sider .club-list-categories label {
+    width: 256px;
+    font-size: 14px;
+    white-space: normal;
+    color: #595959;
+    margin: 0;
+    padding: 0;
+}
+
+.club-list-sider .club-list-kind .ant-radio-checked .ant-radio-inner {
+    border-color: #0050b3;
+}
+
+.club-list-sider .club-list-kind .ant-radio-checked .ant-radio-inner::after,
+.club-list-sider .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #0050b3;
+    border-color: #0050b3;
+}
+
+.club-list-sider .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner:hover {
+    border-color: #0050b3;
+}
+
+.club-list-sider .club-list-age {
+    color: #595959;
+    display: flex;
+    align-items: center;
+}
+.club-list-sider .age {
+    margin: 0 10px 0 0px;
+    border: 1px solid #d9d9d9;
+    color: #595959;
+    border-radius: 6px;
+    width: 43px;
+    height: 40px;
+}
+.club-list-sider .ant-input-number-handler-wrap {
+    display: none;
+}
+.club-list-sider .ant-input-number-input-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.club-list-sider .ant-input-number-input-wrap input {
+    text-align: center;
+}
+
+.club-list-sider .ant-input-number-handler-wrap {
+    width: 12px;
+    border-radius: 0 6px 6px 0;
+}
+
+.club-list-sider
+    .ant-input-number-handler-wrap
+    .ant-input-number-handler
+    .ant-input-number-handler-up-inner,
+.club-list-sider
+    .ant-input-number-handler-wrap
+    .ant-input-number-handler
+    .ant-input-number-handler-down-inner {
+    margin-right: -4px;
+}
+
+.club-list-sider .ant-switch-checked {
+    background: #0050b3;
+}
+
+.club-list-sider .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #d9d9d9;
+}
+
+.club-list .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.use-clear-button {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .club-list-sider {
+        flex: 0 0 300px !important;
+        max-width: 300px !important;
+        min-width: 300px !important;
+        width: 300px !important;
+        justify-content: center;
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 630px) {
+    .club-list-sider {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+@media(min-width: 319px) and (max-width: 824px) {
+    .use-clear-button {
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 12%;
+    }
+    .mobile-clear-button {
+        float: left;
+    }
+    .mobile-use-button {
+        float: left;
+    }
+    .use-button {
+        width: 120px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 6px;
+        color: white;
+        background: #FA8C16;
+        border-color: #FA8C16;
+        margin-left: 10%;
+    }
+    .clear-button {
+        width: 120px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 6px;
+        color: #FA8C16;
+        border-color: #FA8C16;
+        margin-left: -10%;
+    }
+
+    .ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content.club-list-content {
+        width: 0;
+        display: none;
+    }
+
+}
